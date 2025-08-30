@@ -37,7 +37,6 @@ while True:
     else:
         print("The game is a draw")
 
-    start_new_game = input("type yes to start new game or no to stop the game:").lower().strip()
-    if start_new_game!="yes":
+    if input("type yes to start new game or no to stop the game:").lower().strip()!="yes":
         break
 print("Game ended")
